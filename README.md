@@ -1,5 +1,14 @@
-# Vue 3 + TypeScript + Vite
+# Contacts app
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Запуск проекта
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+```js 
+npm i
+
+npm run dev
+```
+
+Далее переходим по [ссылке](http://localhost:5173).
+
+## Технологии 
+vue3, pinia (вместе с persistent store plugin для хранения контактов в ls), json-server для фейкового api. 
