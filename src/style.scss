@@ -1,0 +1,31 @@
+@use './styles/reset';
+@use './styles/colors';
+
+:root {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+
+    @media screen and (width <= 800px) {
+        font-size: 14px;
+    }
+}
+
+html,
+input,
+span,
+p,
+option,
+select,
+h1,
+h2,
+h3 {
+    font-family: 'Open Sans', sans-serif !important;
+    color: colors.$text;
+}
+
+body {
+    background-color: colors.$background;
+}
